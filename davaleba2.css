@@ -1,17 +1,19 @@
 body {
-    background-color: #e5e5e5;
+background-color: #e5e5e5;
+display:flex;
+justify-content:center;
+
 }
 .container{
 box-sizing: border-box;
-position: absolute;
 width: 500px;
-left: 470px;
-
 background: #FFFFFF;
 border: 1px solid #E7E6EB;
 box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
 border-radius: 8px;
-padding: 40px
+padding: 40px;
+margin: 0;
+
 }
 .container1{
 width: 258px;
@@ -19,99 +21,113 @@ height: 50px;
 background: url(image);
 margin-left: 0px; 
 
-}
-b {
-    width: 74px;
-height: 38px;
-left: 510px;
-top: 603px;
 
-font-family: 'Roboto';
+}
+.col1 {
+    
+font-family: 'sans-serif';
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
 line-height: 38px;
 color: #333333;
-}
-h2 {
+margin-top: 8px;
 
-width: 239px;
-height: 28px;
-left: 510px;
-top: 657px;
-font-family: 'Roboto';
+}
+.title {
+
+font-family: 'sans-serif';
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 28px;
 color: #333333;
+margin: 0;
+margin-bottom: 8px;
+margin-top: 8px
+
 }
-h5 {
- width: 426px;
+.text {
+width: 426px;
 height: 68px;
-font-family: 'Roboto';
+font-family: 'math';
 font-style: normal;
 font-size: 16px;
-
-
 color: #333333;
-}
-.h6 {
-    margin: 0; 
-    font-family: 'Roboto';
-font-style: normal;
-font-size: 16px;
-color: #666666;
+font-weight: 400;
+margin: 0;
 
+
+}
+.short {
+margin: 0; 
+font-family: 'math';
+font-style: normal;
+color: #666666;
+font-weight: 400;
+font-size: 16px;
 }
 .container2{
 height: 40px;
-width: 402px;
+width: 100%;
+margin-bottom: 24px;
+margin-top: 8px;
+margin: 0;
+
 }
 .container3 {
     width: 100%;
     height: 55px;
     background: #FBBF23;
     border-radius: 8px;
-
+    
+    text-align: center;
+    margin-top: 16px;
 }
 .abc {
-    font-family: 'Roboto';
+    font-family: 'sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-
     text-align: center;
+    cursor: pointer;
+    background-color:#FBBF23 ;
+    padding-top: 14px;
+    border: 0;
+    
 }
 .container4{ 
     width: 100%;
-    height: 55px;
-    border: 1px solid #61A5FA;
-    border-radius: 8px;
-    margin-top: 50px;
-    padding-top: 20px;
-    
+    height: 40px;
+    text-align: center;
+    margin-top: 16px;
+    padding-top: 14px;
+border: 1px solid #61A5FA;
+border-radius: 8px;
+cursor: pointer;
 }
-.abc1 {
-    font-family: 'Roboto';
+
+.abc1{
+ font-family: 'sans-serif';
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
-margin: 0%;
-
+margin: 0;
 text-align: center;
-
 color: #333333;
+cursor: pointer;
+border: 0;
 }
 .abc2 {
-    font-family: 'Roboto';
+    font-family: 'math';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    margin: 0%;
-    
+    font-size: 16px;
+    margin: 0;
     text-decoration-line: underline;
     color: #61A5FA;
+    margin-top: 32px;
+    
 }
 
 
